@@ -1,6 +1,6 @@
 # README for alle gruppeoppgaver i statestikk ISTT1003
 
-## [Forprosjekt](./forprosjekt/)
+## [Forprosjekt](./forprosjekt/README.md)
 - [x] Laste opp kontrakt
 - [x] Laste opp datasett
-- [ ] Laste opp dataplotter (python + bilde)
+- [ ] Laste opp dataplot som pdf
