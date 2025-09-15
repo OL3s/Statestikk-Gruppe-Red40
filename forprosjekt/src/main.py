@@ -43,6 +43,14 @@ print(f"Standardavvik for punktene: {std_points:.2f}")
 print(f"Forventningsverdi for sko: {x_bar:.2f}")
 print(f"Forventningsverdi for høyde: {y_bar:.2f}")
 
+# Kovarians
+covariance = np.cov(x, y, ddof=1)[0][1]
+print(f"Covariance: {covariance:.2f}")
+
+# Korrelasjon
+correlation = np.corrcoef(x, y)[0][1]
+print(f"Korrelasjon: {correlation:.2f}")
+
 plt.scatter(x, y)
 plt.plot(x, y_pred, color="red", label="Regresjonslinje")
 plt.xlabel(COL_X)
