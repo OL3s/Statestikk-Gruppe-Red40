@@ -1,0 +1,15 @@
+# VSCode
+.vscode/*
+
+# Mac
+.DS_Store
+
+# Neovim
+.nvimlog
+.nvim
+
+# Python
+__pycache__
+
+# Jupyter
+.ipynb_checkpoints
