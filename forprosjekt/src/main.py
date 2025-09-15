@@ -5,7 +5,7 @@ from pathlib import Path
 
 excel_path = Path("../skostr_hoyde.xlsx")
 COL_X = "skostr"
-COL_Y = "hoyde"ø
+COL_Y = "hoyde"
 
 df = pd.read_excel(excel_path)
 data = df[[COL_X, COL_Y]].dropna().astype(float)
