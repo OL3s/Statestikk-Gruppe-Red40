@@ -8,6 +8,9 @@
 .nvimlog
 .nvim
 
+# PyCharm
+.idea
+
 # Python
 __pycache__
 
